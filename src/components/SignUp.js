@@ -6,7 +6,7 @@ const SignUp = () => {
   const [password, setPassword] = useState("");
 
   const collectData = () => {
-    console.warn(name, email, password);
+    console.log(name, email, password);
   };
   return (
     <div className="register">
