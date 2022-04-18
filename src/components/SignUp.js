@@ -23,7 +23,7 @@ const SignUp = () => {
     });
     result = await result.json();
     console.warn(result);
-    //we can not store json data in local storage so we need to stringofy it
+    //we can not store json data in local storage so we need to stringify it
     localStorage.setItem("user", JSON.stringify(result));
     navigate("/");
   };
