@@ -72,6 +72,16 @@
   margin-left: 30%;
   margin-top: 100px;
 }
+.nav-right {
+  text-align: right;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+  margin: 3px 0 0 10px;
+}
 
 @keyframes App-logo-spin {
   from {
